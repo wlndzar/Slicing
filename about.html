@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+   <body>
+<div class="bg-white">
+  <header class="absolute inset-x-0 top-0 z-50">
+    <nav aria-label="Global" class="flex items-center justify-between p-6 lg:px-8">
+      <div class="flex lg:flex-1">
+        <a href="home.html" class="-m-1.5 p-1.5">
+          <span class="sr-only">Your Company</span>
+          <img src="img/download.png" alt="" class="h-10 w-auto" />
+        </a>
+      </div>
+      <div class="flex lg:hidden">
+        <button type="button" command="show-modal" commandfor="mobile-menu" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-200">
+          <span class="sr-only">Open main menu</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6">
+            <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+      </div>
+      <div class="hidden lg:flex lg:gap-x-12">
+        <a href="home.html" class="text-sm/6 font-semibold text-gray-700">Home</a>
+        <a href="about.html" class="text-sm/6 font-semibold text-gray-700">About</a>
+        <a href="part.html" class="text-sm/6 font-semibold text-gray-700">Partnership</a>
+        <a href="contact.html" class="text-sm/6 font-semibold text-gray-700">Garansi</a>
+      </div>
+      
+    </nav>
+    <el-dialog>
+      <dialog id="mobile-menu" class="backdrop:bg-transparent lg:hidden">
+        <div tabindex="0" class="fixed inset-0 focus:outline-none">
+          <el-dialog-panel class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-700 p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-100/10">
+            <div class="flex items-center justify-between">
+              <button type="button" command="close" commandfor="mobile-menu" class="-m-2.5 rounded-md p-2.5 text-white">
+                <span class="sr-only">Close menu</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6">
+                  <path d="M6 18 18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </button>
+            </div>
+            <div class="mt-6 flow-root">
+              <div class="-my-6 divide-y divide-white/10">
+                <div class="space-y-2 py-6">
+                  <a href="home.html" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Home</a>
+                  <a href="about.html" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">About</a>
+                  <a href="part.html" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Partnership</a>
+                  <a href="contact.html" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Garansi</a>
+                </div>
+
+              </div>
+            </div>
+          </el-dialog-panel>
+        </div>
+      </dialog>
+    </el-dialog>
+  </header>
+<br><br><br>
+    
+    <div class="">
+      <h1 class="font-medium text-2xl text-center">ABOUT US</h1><br><hr>
+      
+      <div class="lg:flex flex-column md:flex flex-row"> 
+      <img src="img/about.png" alt="about" class="p-5">
+      
+      
+<p class="ml-4 font-medium">
+<br> Samase adalah brand fashion yang fokus memproduksi pakaian
+pria muslim sejak tahun 2012. Samase menjadi pionir Modern Men’s
+Daily Muslim Wear dan Muslim Fast Fashion di Indonesia.<br> Dengan
+memproduksi sekitar  350 desain per tahun, Samase menghadirkan
+produk berkualitas tinggi melalui standar Quality Control ketat dan
+infrastruktur pabrik berstandar internasional.<br> Produk Samase telah
+merambah berbagai negara seperti Amerika, Singapura, Malaysia,
+dan Arab Saudi, serta menjangkau hampir seluruh wilayah Indonesia.
+<br>
+
+Berpusat di Bandung, Samase menawarkan beragam koleksi pakaian
+pria muslim modern, mulai dari Kemeja Koko, Jubba, Kurta, Ghamis,
+hingga Sirwal dan Ankle Pants, yang cocok untuk ibadah, acara formal,
+maupun nonformal.</p>
+</div>
+</div>
+<br><br>
+
+
+
+<h1 class="text-center text-2xl font-medium">Samase Standardization</h1>
+<div class="grid gap-5 md:grid-cols-4 mt-36 p-5">
+  <div class="bg-gray-300 rounded-xl">
+        <div class="flex items-center justify-center">
+          <img src="img/s2.png" class="w-screen h-52">
+        </div>
+        <h5 class="text-center font-bold">International Health</h5>
+  <p class="text-center">Material bahan bersertifikat Oeko-Text berstandar 100.</p>
+      </div>
+      
+
+      <div class="bg-gray-300 rounded-xl">
+        <div class="flex items-center justify-center">
+          <img src="img/s1.png" class="w-screen">
+        </div>
+        <h5 class="text-center font-bold">Export Standard Quality</h5>
+  <p class="text-center">Diproduksi di pabrik yang berstandard export dan sudah bersertifikat ISO 9001</p>
+      </div>
+
+      <div class="bg-gray-300 rounded-xl">
+        <div class="flex items-center justify-center">
+          <img src="img/s3.png"class="w-screen">
+        </div>    
+        <h5 class="text-center font-bold">U.S Cotton Materials</h5>
+        <p class="text-center">Material textile menggunakan kapas yang ditanam secara berkelanjutan dan telah ter- bukti memiliki serat berkualitas</p>
+      </div>      
+      
+      <div class="bg-gray-300 rounded-xl">
+        <div class="flex items-center justify-center">
+          <img src="img/s4.png"class="w-screen">
+        </div> 
+        <h5 class="text-center font-bold">High Quality Control</h5>
+        <p class="text-center">Proses QC yang ketat dengan menggunakan standard export ke Jepang menghasilkan kuali- tas yang sangat baik.</p>
+      </div>      
+    </div>
+    <br><br>
+    
+    <h1 class="font-medium text-2xl text-center">Vision and Mission</h1> 
+<div class="grid gap-5 md:grid-cols-2 mt-20 p-5">
+  <div class="bg-gray-300 rounded-xl">
+        <h3 class="text-4xl font-bold mt-14 text-center mb-8">Vision</h3>
+        <p class="text-xl text-gray-900 text-center mb-4">
+          Menjadi brand fashion muslim pria yang unggul baik dari segi kualitas produk maupun design, mampu bersaing di pasar fashion global, berkontribusi dalam menjaga keberlangsungan dan pembangunan masyarakat yang islami dengan memenuhi kebutuhan fashion muslim yang sesuai kaidah syariah dan keberlangsungan lingkungan di masa yang akan datang.
+        </p>
+      </div>
+
+       <div class="bg-gray-300 rounded-xl">
+          <h1 class="text-4xl font-bold text-center mt-14 mb-8">Mision</h1>
+        <ul class="text-xl text-center">
+      <li>1. Menyediakan produk berkualitas dengan harga yang sesuai</li><br>
+      <li>2. Selalu menghadirkan design yang unik yang diminati para konsumen</li><br>
+      <li>3. Menjadi solusi busana muslim sehari-hari yang dapat digunakan dalam aktivitas apapun</li>
+    </ul>
+      </div>
+</div>
+
+
+
+  <br><br><br> 
+
+  <div class="lg:bg-gray-800 h-96 flex gap-5 bg-gray-800">
+<div class="m-auto flex flex-row lg:flex flex-column md:gap-0 overflow-x-auto">  
+
+<div class="card w-60">   
+  <div class="text-center p-10">
+<h3 class="text-2xl text-white font-medium">ABOUT US</h3><br>
+<a href="about.html" class="text-white hover:text-gray-400 text-sm">Company</a>
+  </div>
+</div>
+
+
+<div class="card w-60">
+<h3 class="text-2xl text-white font-medium text-center p-10">
+  SOCIAL MEDIA
+</h3>
+<br>
+<ul class="text-white text-center">
+  <li><a href="https://www.instagram.com/samase.centro/?utm_source=ig_web_button_share_sheet" target="_blank" class="text-white hover:text-gray-400">Intagram</a></li>
+  <li><a href="https://www.facebook.com/Shobatsamase/" target="_blank" class="text-white hover:text-gray-400">facebook </a></li>
+  <li><a href="https://www.youtube.com/channel/UCjng8eArY7I4BhlC8MoPPLA" target="_blank" class="text-white hover:text-gray-400">Youtube</a></li>
+  <li><a href="https://www.tiktok.com/@samasehomeofficial" target="_blank" class="text-white hover:text-gray-400">TikTok</a></li>
+</ul>
+</div>
+
+<div class="card w-60">
+<h3 class="text-2xl text-white font-medium pt-10 text-center">SHOPING</h3>
+<br>
+<ul class="text-white text-center">
+  <li><a href="https://www.tiktok.com/@samasehomeofficial" target="_blank" class="text-white hover:text-gray-400">Tiktok shop</a></li>
+  <li><a href="https://www.tokopedia.com/samasehome/product" target="_blank" class="text-white hover:text-gray-400">Tokopedia</a></li>
+  <li><a href="https://shopee.co.id/samase.id" target="_blank" class="text-white hover:text-gray-400">Shopee</a></li>
+</ul>
+</div>
+
+ <div class="card w-60">
+ <h3 class="text-2xl text-white font-medium pt-10 text-center">CONTACT</h3>
+  <br>
+   <ul class="text-white text-center">
+     <li>Whatsapp : +6285333057026</li>
+      <br>
+      <li>Monday – Saturday</li>
+      <br>
+      <li>(08:30 – 16:30)</li>
+    </ul>
+  </div>
+</div>
+</div>
+<footer class="text-white bg-gray-800 ">
+  <p class="text-center mb-5">
+    copyright &copy;2025 | HSI boarding school |
+    muna dzarr
+  </p>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</body>
+</html>
